@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+
+form .search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    box-shadow: none;
+}
+
+.btn1{
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    height: 45px;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+    color: #fff;
+}
+
+.btn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+
+.bi-bag-check{
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.4s;
+}
+
+.bi-bag-check:hover{
+    color: rgb(20, 219, 20);
+}
+
+.navbar-toggler{
+    font-size: 50px;
+    color: #000;
+}
+
+.navbar-toggler:focus{
+    outline: 1px none;
+    box-shadow: none;
+    border: none;
+    color: black;
+}
+
+.main{
+    background: url('/imgs/m1.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+.main p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.mbtn1{
+    height: 40px;
+    width: 20%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.mbtn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+
+.mbtn2{
+    height: 40px;
+    width: 20%;
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+    border: 1px solid rgb(20, 219, 20);
+    transition: 0.3s ease;
+    border-radius: 50px;
+}
+
+.mbtn2:hover{
+    background-color: rgb(20, 219, 20);
+    color: #fff;
+    border: none;
+}
+
+.line{
+    height: 6px;
+    background: rgb(20, 219, 20);
+    width: 30%;
+    display: inline-block;
+}
+
+.about{
+    background: url(/imgs/abut.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome{
+    background-color: rgb(20, 219, 20);
+    font-family: 'Poppins', sans-serif;
+}
+
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome i{
+    font-size: 40px;
+    color: rgb(20, 219, 20);
+}
+
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0;
+}
+
+.product{
+    font-family: 'Poppins', sans-serif;
+}
+
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+.product p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.star{
+    text-align: end;
+    color: orange;
+}
+
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.product .card-body{
+    border: 1px dashed rgb(190, 185, 185);
+}
+
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1{
+    color: rgb(168, 162, 162);
+    font-size: 12px;
+}
+
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.discount{
+    background-color: rgb(20, 219, 20);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dbtn{
+    height: 50px;
+    width: 75%;
+    border: none;
+    outline: none;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+    font-weight: 300;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.dbtn:hover{
+    color: black;
+    background: rgb(230, 223, 223);
+}
+
+.store{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.store i{
+    font-size: 45px;
+}
+
+.store .card{
+    border: none;
+    border-radius: 0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.store .card:hover{
+    background-color: rgb(20, 219, 20);
+    color: #fff;
+}
+
+.store .card:hover .per1{
+    color: #ffff;
+}
+
+.seller {
+    font-family: 'Poppins', sans-serif;
+}
+
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.seller i{
+    color: orange;
+}
+
+.seller .card{
+    border: none;
+    border-radius: 0;
+}
+
+.contact{
+    background: url(/imgs/cont.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact p{
+    color: #fff;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #000;
+}
+
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.cbtn{
+    height: 50px;
+    width: 65%;
+    outline: none;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 200;
+    transition: 0.3s ease;
+}
+
+.cbtn:hover{
+    background-color: rgb(185, 185, 185);
+}
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(61, 58, 58);
+}
+
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.s1:hover{
+    background-color: rgb(20, 219, 20);
+    border: none;
+}
+
+.footer p{
+    color: #fff;
+}
